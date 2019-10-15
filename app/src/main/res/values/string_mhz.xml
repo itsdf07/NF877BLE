@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--频率范围-->
+    <string name="string_gps">GPS:</string>
+    <!--蓝牙开关-->
+    <string name="string_bluetooth_status">BT Status:</string>
+    <!--静噪1-->
+    <string name="string_squelch1">Squelch 1:</string>
+    <!--声控等级-->
+    <string name="string_voice_level">Voice Level:</string>
+    <!--声控延时-->
+    <string name="string_voice_delay">Voice Delay:</string>
+    <!--扫描模式-->
+    <string name="string_scan_type">Scan Type:</string>
+    <!--显示模式-->
+    <string name="string_voice2send">Voice Send:</string>
+    <!--发射提示音-->
+    <string name="string_display_model">Display Model:</string>
+    <!--TOT 超时-->
+    <string name="string_tot_timeout">TOT Timeout:</string>
+    <!--屏保时间-->
+    <string name="string_display_time">Display Timeout:</string>
+    <!--省电模式-->
+    <string name="string_power_model">Power Model:</string>
+
+    <!--屏保时间-->
+    <string-array name="array_display_time">
+        <item>OFF</item>
+        <item>5 s</item>
+        <item>10 s</item>
+        <item>15 s</item>
+        <item>20 s</item>
+        <item>25 s</item>
+        <item>30 s</item>
+        <item>35 s</item>
+        <item>40 s</item>
+        <item>45 s</item>
+        <item>50 s</item>
+        <item>55 s</item>
+        <item>60 s</item>
+        <item>65 s</item>
+        <item>70 s</item>
+        <item>75 s</item>
+        <item>80 s</item>
+        <item>85 s</item>
+        <item>90 s</item>
+        <item>95 s</item>
+        <item>100 s</item>
+        <item>105 s</item>
+        <item>110 s</item>
+        <item>115 s</item>
+        <item>120 s</item>
+        <item>125 s</item>
+        <item>130 s</item>
+        <item>135 s</item>
+        <item>140 s</item>
+        <item>145 s</item>
+        <item>150 s</item>
+    </string-array>
+    <!--ToT 超时-->
+    <string-array name="array_tot_timeout">
+        <item>OFF</item>
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>45 s</item>
+        <item>60 s</item>
+        <item>75 s</item>
+        <item>90 s</item>
+        <item>105 s</item>
+        <item>120 s</item>
+        <item>135 s</item>
+        <item>150 s</item>
+        <item>165 s</item>
+        <item>180 s</item>
+    </string-array>
+    <!--显示模式-->
+    <string-array name="array_display_model">
+        <item>Black and white</item>
+        <item>Colorful</item>
+    </string-array>
+    <!--扫描模式-->
+    <string-array name="array_scan_type">
+        <item>TO</item>
+        <item>CO</item>
+    </string-array>
+    <!--声控延时-->
+    <string-array name="array_voice_delay">
+        <item>0.5 s</item>
+        <item>1.0 s</item>
+        <item>1.5 s</item>
+        <item>2.0 s</item>
+        <item>2.5 s</item>
+        <item>3.0 s</item>
+    </string-array>
+
+    <!--声控等级-->
+    <string-array name="array_voice_level">
+        <item>OFF</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <!--静噪1-->
+    <string-array name="array_squelch">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <!--蓝牙开关-->
+    <string-array name="array_bluetooth_status">
+        <item>OFF</item>
+        <item>Automatic Model</item>
+        <item>Manual Model</item>
+    </string-array>
+
+    <!--开关-->
+    <string-array name="array_off_on">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+</resources>

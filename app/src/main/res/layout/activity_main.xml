@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".BLEScanActivity">
 
     <Button
         android:id="@+id/btn_start_scan"

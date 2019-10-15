@@ -335,6 +335,12 @@ public class OKBLEDeviceImp implements OKBLEDevice {
             if (status == BluetoothGatt.GATT_SUCCESS) {
                 if (newState == BluetoothGatt.STATE_CONNECTED) {// 连接成功
                     gatt.discoverServices();
+                    if (OKBLEDeviceListeners != null) {
+                        Log.e(TAG,"onConnectionStateChange->OKBLEDeviceListeners size:" + OKBLEDeviceListeners.size());
+                        for (OKBLEDeviceListener listener : OKBLEDeviceListeners) {
+                            listener.onConnected(deviceTAG);
+                        }
+                    }
                 } else if (newState == BluetoothGatt.STATE_DISCONNECTED) {// 断开连接
                     deviceStatus = DeviceStatus.DEVICE_STATUS_DISCONNECTED;
                     reSet();

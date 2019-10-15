@@ -1,0 +1,414 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="title_xw3300">@string/app_name</string>
+    <string name="title_about_xw3300">关于XW3300</string>
+    <string name="title_link_device">连接设备</string>
+    <string name="title_online_xw3300">联系我们</string>
+    <string name="title_setting_xw3300">读写频设置</string>
+
+    <string name="device_status">当前设备连接状态：%s</string>
+    <string name="device_status_connected">设备已连接</string>
+    <string name="device_status_disconnected">设备未连接</string>
+    <string name="about_xw3300">@string/title_about_xw3300</string>
+    <string name="link_xw3300">@string/title_link_device</string>
+    <string name="online_xw3300">@string/title_online_xw3300</string>
+    <string name="setting_xw3300">@string/title_setting_xw3300</string>
+    <!--蓝牙写频相关String-->
+    <string name="link_device_name">对讲机名称：%s</string>
+    <string name="link_device_address">对讲机地址：%s</string>
+    <string name="device_switch">设备切换</string>
+
+    <!--公共协议-->
+    <string name="string_public_information">公共协议</string>
+    <!--信道协议-->
+    <string name="string_channel_information">信道协议</string>
+    <string name="string_channel_read">读频</string>
+    <string name="string_channel_write">写频</string>
+    <string name="tip_channel_reading">读频中，请稍候...</string>
+    <string name="tip_channel_writing">写频中，请稍候...</string>
+    <!--频率范围-->
+    <string name="string_freq_range">GPS:</string>
+    <string name="string_squelch_level">静噪等级:</string>
+    <string name="string_vox_level">声控等级:</string>
+    <string name="string_time_out">发射限时（秒）:</string>
+    <string name="string_vox_delay">声控延迟时间（秒）:</string>
+    <string name="string_scan_model">扫描模式:</string>
+    <string name="string_play">语音播报:</string>
+    <string name="string_cj1_short">侧键1 (短按):</string>
+    <string name="string_cj2_short">侧键2 (短按):</string>
+    <string name="string_cj1_long">侧键1 (长按):</string>
+    <string name="string_cj2_long">侧键2 (长按):</string>
+    <string name="string_battery_save">电池省电</string>
+    <string name="string_beep_tone">哔音</string>
+
+    <string name="string_channel_switch">信道选择:</string>
+    <string name="string_tx_freq">发射频率:</string>
+    <string name="string_rx_freq">接收频率:</string>
+    <string name="hint_tx_freq">输入发射频率</string>
+    <string name="hint_rx_freq">输入接收频率</string>
+    <string name="string_dec">CTC/DCS 解码:</string>
+    <string name="string_enc">CTC/DCS 编码:</string>
+    <string name="string_scan_add">扫描添加:</string>
+    <string name="string_w_n">带宽:</string>
+    <string name="string_tx_power">发射功率:</string>
+    <string name="string_busy_lock">繁忙锁定:</string>
+    <string name="string_scramble">扰频:</string>
+    <string name="string_compander">压扩:</string>
+
+    <string name="string_about_xw3300">
+        您好，欢迎使用XW3300产品。\n
+        \t\t本机操作简便、性能稳定、外观坚固大方。是为了满足更广泛区域使用、更多用户需求而研制开发的。不管您是在农村、林区、牧区、海域都能正常通话，同时精美外观更能满足您的个性需求。\n
+        \t\t蓝牙耳机和手机APP的开发，为解放双手，去探索更多更有趣的玩法提供支持。一直以来我们致力于开发更多实用的有趣的对讲机。\n
+        \t\t感谢您一直以来对泉州市新维电子科技有限公司的支持与厚爱！
+    </string>
+
+    <string name="string_online_xw3300">
+        \t\t感谢您使用我们的手咪产品，有任何问题都可以联系我们的服务人员。联系方式如下：
+    </string>
+    <string name="string_online_xw3300_service">客服：10086</string>
+    <string name="string_online_xw3300_support">技术支持：13715088562</string>
+    //--------------------------------
+    <!--频率范围-->
+    <string-array name="array_hz_plfw">
+        <item>[400-470MHZ]</item>
+        <item>[136-174MHZ]</item>
+    </string-array>
+    <!--静噪等级-->
+    <string-array name="array_hz_jzdj">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <!--声控等级-->
+    <string-array name="array_hz_skdj">
+        <item>关闭</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <!--发射时限-->
+    <string-array name="array_hz_fssx">
+        <item>关闭</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>210</item>
+        <item>240</item>
+        <item>270</item>
+        <item>300</item>
+    </string-array>
+    <!--声控延时-->
+    <string-array name="array_hz_skys">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.0</item>
+    </string-array>
+    <!--DTMF:双音多频-->
+    <string-array name="array_hz_dtmf">
+        <item>无</item>
+        <item>发射开始</item>
+        <item>发射结束</item>
+        <item>发射开始和发射结束</item>
+    </string-array>
+    <!--扫描模式-->
+    <string-array name="array_hz_smms">
+        <item>载波</item>
+        <item>时间</item>
+        <item>搜索</item>
+    </string-array>
+    <!--语音播报-->
+    <string-array name="array_hz_yybb">
+        <item>无</item>
+        <item>中文</item>
+        <item>英文</item>
+    </string-array>
+
+    <!--侧键-->
+    <string-array name="array_hz_cj">
+        <item>关闭</item>
+        <item>暂态监听</item>
+        <item>高/低功率</item>
+        <item>扫描</item>
+        <item>菜单</item>
+        <item>电量显示</item>
+        <item>紧急报警</item>
+    </string-array>
+
+    <!--信道选择-->
+    <string-array name="array_hz_xdxz">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <!--CTC/DCS 解密/编码-->
+    <string-array name="array_hz_ctcdcs">
+        <item>关闭</item>
+        <item>67.0</item>
+        <item>69.3</item>
+        <item>71.9</item>
+        <item>74.4</item>
+        <item>77.0</item>
+        <item>79.7</item>
+        <item>82.5</item>
+        <item>85.4</item>
+        <item>88.5</item>
+        <item>91.5</item>
+        <item>94.8</item>
+        <item>97.4</item>
+        <item>100.0</item>
+        <item>103.5</item>
+        <item>107.2</item>
+        <item>110.9</item>
+        <item>114.8</item>
+        <item>118.8</item>
+        <item>123.0</item>
+        <item>127.3</item>
+        <item>131.8</item>
+        <item>136.5</item>
+        <item>141.3</item>
+        <item>146.2</item>
+        <item>151.4</item>
+        <item>156.7</item>
+        <item>159.8</item>
+        <item>162.2</item>
+        <item>165.5</item>
+        <item>167.9</item>
+        <item>171.3</item>
+        <item>173.8</item>
+        <item>177.3</item>
+        <item>179.9</item>
+        <item>183.5</item>
+        <item>186.2</item>
+        <item>189.9</item>
+        <item>192.8</item>
+        <item>196.6</item>
+        <item>199.5</item>
+        <item>203.5</item>
+        <item>206.5</item>
+        <item>210.7</item>
+        <item>218.1</item>
+        <item>225.7</item>
+        <item>229.1</item>
+        <item>233.6</item>
+        <item>241.8</item>
+        <item>250.3</item>
+        <item>254.1</item>
+        <item>D023N</item>
+        <item>D025N</item>
+        <item>D026N</item>
+        <item>D031N</item>
+        <item>D032N</item>
+        <item>D043N</item>
+        <item>D047N</item>
+        <item>D051N</item>
+        <item>D054N</item>
+        <item>D065N</item>
+        <item>D071N</item>
+        <item>D072N</item>
+        <item>D073N</item>
+        <item>D074N</item>
+        <item>D114N</item>
+        <item>D115N</item>
+        <item>D116N</item>
+        <item>D125N</item>
+        <item>D131N</item>
+        <item>D132N</item>
+        <item>D134N</item>
+        <item>D143N</item>
+        <item>D152N</item>
+        <item>D155N</item>
+        <item>D156N</item>
+        <item>D162N</item>
+        <item>D165N</item>
+        <item>D172N</item>
+        <item>D174N</item>
+        <item>D205N</item>
+        <item>D223N</item>
+        <item>D226N</item>
+        <item>D243N</item>
+        <item>D244N</item>
+        <item>D245N</item>
+        <item>D251N</item>
+        <item>D261N</item>
+        <item>D263N</item>
+        <item>D265N</item>
+        <item>D271N</item>
+        <item>D306N</item>
+        <item>D311N</item>
+        <item>D315N</item>
+        <item>D331N</item>
+        <item>D343N</item>
+        <item>D346N</item>
+        <item>D351N</item>
+        <item>D364N</item>
+        <item>D365N</item>
+        <item>D371N</item>
+        <item>D411N</item>
+        <item>D412N</item>
+        <item>D413N</item>
+        <item>D423N</item>
+        <item>D431N</item>
+        <item>D432N</item>
+        <item>D445N</item>
+        <item>D464N</item>
+        <item>D465N</item>
+        <item>D466N</item>
+        <item>D503N</item>
+        <item>D506N</item>
+        <item>D516N</item>
+        <item>D532N</item>
+        <item>D546N</item>
+        <item>D565N</item>
+        <item>D606N</item>
+        <item>D612N</item>
+        <item>D624N</item>
+        <item>D627N</item>
+        <item>D631N</item>
+        <item>D632N</item>
+        <item>D654N</item>
+        <item>D662N</item>
+        <item>D664N</item>
+        <item>D703N</item>
+        <item>D712N</item>
+        <item>D723N</item>
+        <item>D731N</item>
+        <item>D732N</item>
+        <item>D734N</item>
+        <item>D743N</item>
+        <item>D754N</item>
+        <item>D023I</item>
+        <item>D025I</item>
+        <item>D026I</item>
+        <item>D031I</item>
+        <item>D032I</item>
+        <item>D043I</item>
+        <item>D047I</item>
+        <item>D051I</item>
+        <item>D054I</item>
+        <item>D065I</item>
+        <item>D071I</item>
+        <item>D072I</item>
+        <item>D073I</item>
+        <item>D074I</item>
+        <item>D114I</item>
+        <item>D115I</item>
+        <item>D116I</item>
+        <item>D125I</item>
+        <item>D131I</item>
+        <item>D132I</item>
+        <item>D134I</item>
+        <item>D143I</item>
+        <item>D152I</item>
+        <item>D155I</item>
+        <item>D156I</item>
+        <item>D162I</item>
+        <item>D165I</item>
+        <item>D172I</item>
+        <item>D174I</item>
+        <item>D205I</item>
+        <item>D223I</item>
+        <item>D226I</item>
+        <item>D243I</item>
+        <item>D244I</item>
+        <item>D245I</item>
+        <item>D251I</item>
+        <item>D261I</item>
+        <item>D263I</item>
+        <item>D265I</item>
+        <item>D271I</item>
+        <item>D306I</item>
+        <item>D311I</item>
+        <item>D315I</item>
+        <item>D331I</item>
+        <item>D343I</item>
+        <item>D346I</item>
+        <item>D351I</item>
+        <item>D364I</item>
+        <item>D365I</item>
+        <item>D371I</item>
+        <item>D411I</item>
+        <item>D412I</item>
+        <item>D413I</item>
+        <item>D423I</item>
+        <item>D431I</item>
+        <item>D432I</item>
+        <item>D445I</item>
+        <item>D464I</item>
+        <item>D465I</item>
+        <item>D466I</item>
+        <item>D503I</item>
+        <item>D506I</item>
+        <item>D516I</item>
+        <item>D532I</item>
+        <item>D546I</item>
+        <item>D565I</item>
+        <item>D606I</item>
+        <item>D612I</item>
+        <item>D624I</item>
+        <item>D627I</item>
+        <item>D631I</item>
+        <item>D632I</item>
+        <item>D654I</item>
+        <item>D662I</item>
+        <item>D664I</item>
+        <item>D703I</item>
+        <item>D712I</item>
+        <item>D723I</item>
+        <item>D731I</item>
+        <item>D732I</item>
+        <item>D734I</item>
+        <item>D743I</item>
+        <item>D754I</item>
+
+
+    </string-array>
+
+    <!--是否选择-->
+    <string-array name="array_hz_yes_or_no">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <!--高低选择-->
+    <string-array name="array_hz_height_or_low">
+        <item>低</item>
+        <item>高</item>
+    </string-array>
+    <!--带宽-->
+    <string-array name="array_hz_dk">
+        <item>宽带</item>
+        <item>窄带</item>
+    </string-array>
+
+
+</resources>
